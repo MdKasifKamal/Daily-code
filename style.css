@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Demo';
+  src: url(Nightcore\ Demo.ttf);
+}
+*{
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+ width: 100%;
+  
+} 
+  
+h2{
+  color:rgb(230, 142, 0);
+  background-color: black;
+  text-align:center;
+  font-size: 100px;
+  font-family: Demo;
+  font-weight: 100;
+}
+div{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+ 
+
+}

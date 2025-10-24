@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+#box{
+  height: 200px;
+  width: 200px;
+  background: linear-gradient( to right top, red, yellow, green, grey, blue);
+}
+#box1{
+  height: 200px;
+  width: 200px;
+  background: linear-gradient( red 20%, yellow 50%, green);
+}
+#box2{
+  height: 200px;
+  width: 200px;
+  background: radial-gradient(  red, yellow, green, grey, blue);
+ 
+}
+#box3{
+  height: 200px;
+  width: 200px;
+  background: conic-gradient(  red, yellow, green, grey, blue, violet, black,orange,red, brown);
+}
+#outer{
+  height: 800px;
+  width: 900px;
+  background-color:lightblue ;
+}
+#inner{
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+}
+#main{
+  height: 100%;
+  width: 100%;
+ background-image: url(https://images.unsplash.com/photo-1672011012713-de07fc9ee8fc?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+ background-size: cover;
+}

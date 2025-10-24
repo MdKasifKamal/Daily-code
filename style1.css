@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+  text-align: center;
+} 
+header{
+  background-color: rgb(91, 80, 80);
+  color: white;
+  
+ 
+}
+#m1{
+  background-color: rgb(27, 63, 58);
+  padding: 0;
+  margin: 0;
+}
+#m2{
+  background-color: rgb(57, 48, 74);
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+#m3{
+  background-color: rgb(208, 177, 192);
+  padding: 0;
+  margin: 0;
+}
+#m4{
+  background-color: rgb(195, 14, 14);
+  padding: 0;
+  margin: 0;
+}
+#m5{
+  background-color: rgb(19, 20, 39);
+  padding: 0;
+  margin: 0;
+}
+footer{background-color: rgb(91, 80, 80);}

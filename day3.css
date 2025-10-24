@@ -1,0 +1,25 @@
+*{margin: 0;
+padding: 0;
+ box-sizing: border-box;}
+ html,body{
+  height: 100%;
+  width: 100%;
+}
+#car{
+  height: 240px;
+  width: 280px;
+  background-color:red;
+
+}
+#car1{
+  height: 300px;
+  width: 320px;
+  background-color: aqua;
+  position: absolute;
+  left: 60%;
+}
+#car2{
+  height: 320px;
+  width: 350px;
+  background-color: chartreuse;
+}

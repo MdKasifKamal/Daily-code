@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#box{
+  height: 400px;
+  width: 400px;
+  background-image: url(DSC_0082\ -\ Copy.JPG);
+  background-size: cover;
+  background-position: center;
+  transform: rotate(90deg);
+  
+}

@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+#homepage{
+  height: 2000px;
+  width: 100%;
+  background-color: black;
+}
+#side{
+  position: fixed;
+  right:0;
+  top:50%;
+  width: 100px;
+  height: 400px;
+  background-color: tomato;
+}
+#side2{
+  position: absolute;
+  left:0;
+  top:50%;
+  width: 100px;
+  height: 400px;
+  background-color: rgb(71, 138, 255);
+}

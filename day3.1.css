@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+#A{
+  height: 200px;
+  width: 200px;
+  background-color: #2419c9;
+}
+#A1{
+  height: 70px;
+  width: 70px;
+  background-color: #ff0000;
+ position: absolute;
+left: 50%;
+}
+#B{
+  height: 200px;
+  width: 200px;
+  background-color: #231010;
+  position: relative;
+}
+#B1{
+  height: 30px;
+  width: 30px;
+  background-color: #ff0000;
+  position: absolute;
+  left: 70%;
+}
+#C{
+  height: 300px;
+  width: 300px;
+  background-color: green;
+}
+#C1{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  
+}
+#C2{
+  height: 100px;
+  width: 100px;
+  background-color:yellow;
+ 
+}
+#C3{
+  height: 30px;
+  width: 30px;
+  background-color: blue;
+ position: absolute; 
+}

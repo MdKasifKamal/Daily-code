@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#parent {
+ height: 100%;
+ width: 100%;
+ background-color: lightgrey;
+ display: flex;
+flex-wrap: nowrap;
+overflow: auto;
+
+}
+#child1{
+  height: 200px;
+  width: 200px;
+  background-color: lightcoral;
+  border: 2px solid black;
+ flex-shrink: 0;
+}
+#child2{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(128, 130, 240);
+  border: 2px solid black;
+    flex-shrink: 0;
+}
+#child3{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(113, 179, 106);
+  border: 2px solid black;
+  flex-shrink: 0;
+}
