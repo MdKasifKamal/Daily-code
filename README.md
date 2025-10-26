@@ -3,3 +3,4 @@
 <img width="284" height="844" alt="Screenshot 2025-10-12 183259" src="https://github.com/user-attachments/assets/09cfc723-a088-4ce8-b053-983cef544238" />
 <img width="1888" height="606" alt="Screenshot 2025-10-26 221123" src="https://github.com/user-attachments/assets/1450d3f9-a6f0-4a78-8da6-8464c0cdef43" />
 
+<img width="1916" height="969" alt="Screenshot 2025-10-26 221620" src="https://github.com/user-attachments/assets/da21bcf3-8db3-4fa7-bc6a-f9d3cf9ef188" />
