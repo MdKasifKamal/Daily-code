@@ -1,41 +1,41 @@
-// //  for(let i = 1; i <= 5; i++) {
-// //     console.log(i);
-// // }
-// // print even mumber type 1
-// // for(let i = 1; i <= 10; i++) {
-// //     if(i % 2 === 0) {
-// //         console.log(i);
-// //     }
-// //   }
+ for(let i = 1; i <= 5; i++) {
+    console.log(i);
+ }
+// print even mumber type 1
+ for(let i = 1; i <= 10; i++) {
+    if(i % 2 === 0) {
+        console.log(i);
+     }
+   }
 //   // print even mumber type 2
-// // for(let i = 2; i <= 10; i+=2) {
+ for(let i = 2; i <= 10; i+=2) {
    
-// //         console.log(i);
+      console.log(i);
     
-// //   }
+   }
 
-// //   // print reverse number
-// //   for(let i = 10; i >= 1; i--) {
-// //     console.log(i);
-// // }
+ // print reverse number
+  for(let i = 10; i >= 1; i--) {
+     console.log(i);
+ }
 
-// // print even odd
-// // for(let i = 1; i <= 10; i++) {
-// //     if(i % 2 === 0) {
-// //         console.log(i + " is even number");
-// //     } else {
-// //         console.log(i + " is odd number");
-// //     }
-// //   }
+// print even odd
+ for(let i = 1; i <= 10; i++) {
+     if(i % 2 === 0) {
+        console.log(i + " is even number");
+     } else {
+       console.log(i + " is odd number");
+   }
+ }
 
-// // take input from user and print
-// let num = Number(prompt("Enter a number: "));
-// if(num>=0){
-//     console.log(num + " is positive number");
-// }
-// else{
-//     console.log(num + " is negative number");
-// }
+ // take input from user and print
+ let num = Number(prompt("Enter a number: "));
+ if(num>=0){
+     console.log(num + " is positive number");
+ }
+ else{
+     console.log(num + " is negative number");
+ }
 
 // print vote age
 
