@@ -1,16 +1,16 @@
- for(let i = 1; i <= 5; i++) {
+  for(let i = 1; i <= 5; i++) {
     console.log(i);
- }
+}
 // print even mumber type 1
  for(let i = 1; i <= 10; i++) {
     if(i % 2 === 0) {
         console.log(i);
-     }
+    }
    }
-//   // print even mumber type 2
- for(let i = 2; i <= 10; i+=2) {
+// print even mumber type 2
+for(let i = 2; i <= 10; i+=2) {
    
-      console.log(i);
+       console.log(i);
     
    }
 
