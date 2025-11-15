@@ -62,3 +62,57 @@ else{
     console.error("invalid password");
   }
 }
+
+// print password until user enters "stop"
+let passs = prompt("enter your password");
+while(passs !=="stop"){
+  console.log(passs);
+  passs = prompt("enter your password");
+}
+
+
+//   enter paassword max 3 times
+let attempts = 0;
+let opened = false;
+let paass = "kasif123";
+let passsword = prompt("enter your password");
+attempts++;
+if(passsword === paass) opened = true;
+while(passsword !== paass ){
+  if(attempts >= 3){
+    console.error("too many failed attempts. try again later.");
+    break;
+  }
+  passsword = prompt("enter your password");
+  if(passsword === paass) opened === true;
+
+  attempts++;
+}
+if(opened === true)
+console.log("login successful");
+
+//print your age and check voting eligibility
+let agee = prompt("Enter your age:");
+
+if (agee === null) {
+  console.error("You cancelled the prompt");
+} 
+else if (agee.trim() === "") {
+  console.error("You did not enter any value");
+} 
+else {
+  agee = Number(agee.trim());
+  
+  if (isNaN(agee)) {
+    console.error("Invalid input. Please enter a number.");
+  } 
+  else if (agee < 0) {
+    console.error("Age cannot be negative");
+  } 
+  else if (agee >= 18) {
+    console.log("You are eligible to vote");
+  } 
+  else {
+    console.log("You are not eligible to vote");
+  }
+}
