@@ -38,6 +38,11 @@ let aab = (v1 , v2) => {
 }
 aab(10,20); // function call
 
+let multi = (a,b) =>{
+    return a*b;
+}
+console.log(multi(4,5));
+
 let strr = (b) => {
   console.log(b);
 }
@@ -75,3 +80,14 @@ function numm(a,b,c, ...valu){
   console.log(a,b,c, valu);
 }
 numm(1,2,3,4,5,6,7,8,9,909,393,3,33,34); // here a=1,b=2,c=3 and valu=[4,5,6,7,8,9]
+
+function sayhi(name ="Kasif"){
+  console.log("Hi"+ " " +name)
+}
+sayhi(); 
+
+
+function abccd(a,b, ...val){
+  console.log(a,b, val)
+}
+abccd(1,2,3,4,5,6,7,8,9); // here a=1,b=2 and val=[3,4,5,6,7,8,9]
