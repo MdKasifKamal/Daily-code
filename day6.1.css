@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  padding: 20px;
+}
+.card{
+  height: 300px;
+  width: 250px;
+  background-color: crimson;
+  border-radius: 15px;
+  
+  
+
+}
+.card img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.bottom{
+  height: 40%;
+  width: 100%;
+  background-color: crimson;
+}

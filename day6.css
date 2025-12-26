@@ -12,14 +12,14 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  perspective: 600px;
   
 }
 #box{
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   background-image: url(DSC_0082\ -\ Copy.JPG);
   background-size: cover;
   background-position: center;
-  transform: rotate(90deg);
-  
-}
+  transform: rotateX(130deg) rotateZ(90deg) rotateY(50deg) scale(2);
+} 

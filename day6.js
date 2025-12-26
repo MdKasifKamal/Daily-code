@@ -112,7 +112,7 @@ const greets = name => console.log("Hello " + name);
 // arrow function with single parameter with curly braces
 const greetss = name => {
   console.log("Hello " + name);
-}
+} 
 
 // first claass function
 // first claass function means it can be treated like any other variable or means value ki tarah treat krta hai

@@ -1,0 +1,64 @@
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+}
+html, body{
+  height : 100%;
+  width : 100%;
+}
+#main{
+  height : 100%;
+  width : 100%;
+  background-color : lightgray;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.class{
+  height: 300px;
+  width: 350px;
+  background-color: crimson;
+  border-radius: 15px;
+  position: relative;
+   transition: all ease 0.6s;
+   overflow: hidden;
+}
+.class img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+object-position: center;
+}
+.bottom{
+  height: 40%;  
+  width: 100%;
+  background:linear-gradient(transparent, black);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  bottom: -40%;
+  position: absolute;
+   transition: all ease 1s;
+}
+.bottom h4 {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+.bottom h3 {
+  color: white;
+  font-size: 25px;
+}
+.class:hover .bottom{
+ 
+ bottom: 0;
+}
+
+.class:hover{
+  box-shadow: 0 0 20px rgb(16, 18, 106);
+ 
+}
